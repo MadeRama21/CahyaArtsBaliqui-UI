@@ -1,0 +1,19 @@
+{
+  "name": "CahyaArtBaliqui",
+  "version": "1.0.0",
+  "description": "Website-CahyaArtBaliqui",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx tailwind -i ./src/input.css -o ./src/output.css --watch"
+  },
+  "author": "MadeRama",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.14"
+  },
+  "dependencies": {
+    "@vercel/analytics": "^1.3.2",
+    "@vercel/speed-insights": "^1.0.14"
+  }
+}
