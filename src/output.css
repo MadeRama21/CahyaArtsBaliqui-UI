@@ -785,6 +785,10 @@ h2,
   display: none;
 }
 
+.aspect-video {
+  aspect-ratio: 16 / 9;
+}
+
 .h-\[400px\] {
   height: 400px;
 }
