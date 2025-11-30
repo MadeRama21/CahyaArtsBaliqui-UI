@@ -983,12 +983,28 @@ h2,
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
 }
 
-.bg-\[url\(\'\/asset\/img\/background-utama\.jpg\'\)\] {
-  background-image: url('/asset/img/background-utama.jpg');
+.bg-\[url\(\'\/asset\/img\/background-utama\.webp\'\)\] {
+  background-image: url('/asset/img/background-utama.webp');
 }
 
 .bg-\[url\(\'\/asset\/img\/gender\.jpg\'\)\] {
   background-image: url('/asset/img/gender.jpg');
+}
+
+.bg-\[url\(\'\/asset\/img\/rin\'\)\] {
+  background-image: url('/asset/img/rin');
+}
+
+.bg-\[url\(\'\/asset\/img\/\'\)\] {
+  background-image: url('/asset/img/');
+}
+
+.bg-\[url\(\'\/asset\/img\/rindik\.j\'\)\] {
+  background-image: url('/asset/img/rindik.j');
+}
+
+.bg-\[url\(\'\/asset\/img\/rindik\.jpg\'\)\] {
+  background-image: url('/asset/img/rindik.jpg');
 }
 
 .bg-cover {
