@@ -1316,6 +1316,14 @@ h2,
     width: 600px;
   }
 
+  .md\:w-\[65px\] {
+    width: 65px;
+  }
+
+  .md\:w-\[75px\] {
+    width: 75px;
+  }
+
   .md\:text-\[20px\] {
     font-size: 20px;
   }
