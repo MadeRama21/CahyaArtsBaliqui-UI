@@ -1163,6 +1163,10 @@ h2,
   padding-top: 90px;
 }
 
+.text-left {
+  text-align: left;
+}
+
 .text-center {
   text-align: center;
 }
