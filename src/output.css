@@ -791,6 +791,10 @@ h2,
   aspect-ratio: 16 / 9;
 }
 
+.h-14 {
+  height: 3.5rem;
+}
+
 .h-\[400px\] {
   height: 400px;
 }
@@ -807,20 +811,40 @@ h2,
   height: 70px;
 }
 
-.h-\[90px\] {
-  height: 90px;
+.h-\[80px\] {
+  height: 80px;
 }
 
 .h-full {
   height: 100%;
 }
 
-.h-\[80px\] {
-  height: 80px;
+.h-12 {
+  height: 3rem;
+}
+
+.h-20 {
+  height: 5rem;
+}
+
+.h-40 {
+  height: 10rem;
+}
+
+.h-32 {
+  height: 8rem;
+}
+
+.h-24 {
+  height: 6rem;
 }
 
 .w-\[300px\] {
   width: 300px;
+}
+
+.w-\[50px\] {
+  width: 50px;
 }
 
 .w-\[567px\] {
@@ -837,18 +861,6 @@ h2,
 
 .w-full {
   width: 100%;
-}
-
-.w-\[40px\] {
-  width: 40px;
-}
-
-.w-\[50px\] {
-  width: 50px;
-}
-
-.w-\[55px\] {
-  width: 55px;
 }
 
 .max-w-3xl {
@@ -1013,6 +1025,14 @@ h2,
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
 }
 
+.bg-\[url\(\'\/asset\/img\/Kendang\.webp\'\)\] {
+  background-image: url('/asset/img/Kendang.webp');
+}
+
+.bg-\[url\(\'\/asset\/img\/Selonding\.webp\'\)\] {
+  background-image: url('/asset/img/Selonding.webp');
+}
+
 .bg-\[url\(\'\/asset\/img\/background-utama\.webp\'\)\] {
   background-image: url('/asset/img/background-utama.webp');
 }
@@ -1025,16 +1045,8 @@ h2,
   background-image: url('/asset/img/gong-kebyar.webp');
 }
 
-.bg-\[url\(\'\/asset\/img\/kendang\.webp\'\)\] {
-  background-image: url('/asset/img/kendang.webp');
-}
-
 .bg-\[url\(\'\/asset\/img\/rindik\.webp\'\)\] {
   background-image: url('/asset/img/rindik.webp');
-}
-
-.bg-\[url\(\'\/asset\/img\/selonding\.webp\'\)\] {
-  background-image: url('/asset/img/selonding.webp');
 }
 
 .bg-\[url\(\'\/asset\/img\/semar-pegulingan\.webp\'\)\] {
@@ -1300,16 +1312,8 @@ h2,
     height: 400px;
   }
 
-  .md\:h-\[\] {
-    height: ;
-  }
-
   .md\:h-\[90px\] {
     height: 90px;
-  }
-
-  .md\:h-\[65px\] {
-    height: 65px;
   }
 
   .md\:w-\[600px\] {
@@ -1318,10 +1322,6 @@ h2,
 
   .md\:w-\[65px\] {
     width: 65px;
-  }
-
-  .md\:w-\[75px\] {
-    width: 75px;
   }
 
   .md\:text-\[20px\] {
